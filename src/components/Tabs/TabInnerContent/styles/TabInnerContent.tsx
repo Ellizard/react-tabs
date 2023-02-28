@@ -6,7 +6,7 @@ export const TabInnerContent = styled.div`
   border-radius: 4px;
   padding: 30px;
   width: 100%;
-  background: rgba(129, 212, 223, .75); 
+  border: 1px solid #ccc;
 
   @media ${breakpoint.tablet} {
     max-width: 600px;
