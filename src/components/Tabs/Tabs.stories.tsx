@@ -1,4 +1,4 @@
-// eslint-disable-next-line import/named
+// eslint-disable-next-line import/named2
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { data_1, data_2 } from '../../helpers/mockedData';
 import { Tabs } from './index';
