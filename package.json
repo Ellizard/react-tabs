@@ -1,8 +1,8 @@
 {
-  "homepage": "http://Ellizard.github.io/react-tabs",
+  "homepage": "http://ellizard.github.io/react-tabs",
   "name": "react-tabs",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
