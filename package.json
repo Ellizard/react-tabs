@@ -12,8 +12,9 @@
     "lint:fix": "eslint . --fix --ext .ts,.tsx",
     "prettier": "prettier --write ./src",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^18.2.0",
